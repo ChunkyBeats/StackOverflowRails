@@ -1,0 +1,12 @@
+<% if logged_in? %>
+  <h1>New Question</h1>
+  <%= form_for Question.new do |f| %>
+    <div class="form-group">
+      <%= f.label :text %>
+      <%= f.text_field :text %>
+    </div>
+    <%= f.submit "Post", class: "btn btn-primary" %>
+  <% end %>
+<% else %>
+  You must be logged in to answer a question. <%= link_to "Log in", log_in_path %>
+<% end %>

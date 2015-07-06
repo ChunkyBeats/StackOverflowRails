@@ -1,0 +1,25 @@
+<div class="row">
+  <div class="col-md-6">
+    <% if current_user %>
+      Welcome <%= current_user.username %>!
+    <% end %>
+
+    <h1>Welcome!</h1>
+    <%= link_to "Log in", log_in_path %> or
+    <%= link_to "Sign up", new_user_path %>
+
+
+    <%=flash[:notice] %>
+  </div>
+
+  <div class="col-md-6">
+    <h3 class="text-center">Questions</h3>
+    <ul class="list-unstyled list-group">
+    <% @questions.each do |question| %>
+      <li class="list-group-item"><%= question.text %>
+        <p class="pull-right"><%= question.description %></p>
+      </li>
+    <% end %>
+    </ul>
+  </div>
+</div>
