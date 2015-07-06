@@ -1,0 +1,20 @@
+<h2><%= @question.text %></h2>
+
+<%= @question.description %>
+<hr>
+<%= form_for [@question, @answer] do |f| %>
+  <div class="form-group">
+    <%= f.label :text, "Add an Answer" %>
+    <%= f.text_field :text %>
+  </div>
+  <%= f.submit "Answer", class: "btn btn-success"%>
+<% end %>
+
+<hr>
+
+<ul class="list-unstyled list-group">
+  <% @question.answers.each do |answer| %>
+    <li class="list-group-item"><%= answer.text %>
+    <p class="pull-right"><%= answer.description %></p></li>
+  <% end %>
+</ul>
