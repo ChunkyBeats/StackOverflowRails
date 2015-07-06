@@ -2,6 +2,7 @@ class Question < ActiveRecord::Base
   belongs_to :user
   has_many :votes, as: :votable
   has_many :answers
+  belongs_to :accepted_answer, :class_name => "Answer", :foreign_key => :accepted_answer_id
 
   def description
     time_elapsed = (Time.now - self.created_at).to_i
@@ -16,6 +17,10 @@ class Question < ActiveRecord::Base
     end
 
     "asked by #{self.user.username} #{time_elapsed} #{time_unit} ago"
+  end
+
+  def self.sort_by_votes
+    all.sort_by { |question| -question.vote_count } # negative sign switches order
   end
 
   def vote_count

@@ -13,8 +13,22 @@
 <hr>
 
 <ul class="list-unstyled list-group">
+  <% if @question.accepted_answer %>
+  <li class="list-group-item">
+    <%= @question.accepted_answer.text %>
+    <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span>
+    <p class="pull-right"><%= @question.accepted_answer.description %></p>
+  </li>
+  <% end %>
+
   <% @question.answers.each do |answer| %>
-    <li class="list-group-item"><%= answer.text %>
-    <p class="pull-right"><%= answer.description %></p></li>
+    <% unless answer.id == @question.accepted_answer_id %>
+      <li class="list-group-item"><%= answer.text %>
+        <% if logged_in? && @question.user_id == current_user.id %>
+          <%= link_to "accept answer", question_path(@question,
+                                          question: {:accepted_answer_id => answer.id}), :method => :patch %>
+        <% end %>
+      <p class="pull-right"><%= answer.description %></p></li>
+    <% end %>
   <% end %>
 </ul>

@@ -16,11 +16,13 @@ class QuestionsController < ApplicationController
   end
 
   def update
-
+    @question = Question.find(params[:id])
+    @question.update(question_params)
+    redirect_to :back
   end
 
   private
   def question_params
-    params.require(:question).permit(:text)
+    params.require(:question).permit(:text, :accepted_answer_id)
   end
 end
