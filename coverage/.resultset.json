@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/Guest/Desktop/stack_overflow/spec/features/log_in_pages_spec.rb": [
+      "/Users/Guest/Desktop/StackOverflowRails/spec/features/log_in_pages_spec.rb": [
         1,
         1,
         null,
@@ -28,7 +28,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/stack_overflow/spec/rails_helper.rb": [
+      "/Users/Guest/Desktop/StackOverflowRails/spec/rails_helper.rb": [
         null,
         1,
         1,
@@ -80,14 +80,14 @@
         1,
         null
       ],
-      "/Users/Guest/Desktop/stack_overflow/config/environment.rb": [
+      "/Users/Guest/Desktop/StackOverflowRails/config/environment.rb": [
         null,
         1,
         null,
         null,
         1
       ],
-      "/Users/Guest/Desktop/stack_overflow/config/application.rb": [
+      "/Users/Guest/Desktop/StackOverflowRails/config/application.rb": [
         1,
         null,
         1,
@@ -124,12 +124,12 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/stack_overflow/config/boot.rb": [
+      "/Users/Guest/Desktop/StackOverflowRails/config/boot.rb": [
         1,
         null,
         1
       ],
-      "/Users/Guest/Desktop/stack_overflow/config/environments/test.rb": [
+      "/Users/Guest/Desktop/StackOverflowRails/config/environments/test.rb": [
         1,
         null,
         null,
@@ -173,7 +173,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/stack_overflow/config/initializers/assets.rb": [
+      "/Users/Guest/Desktop/StackOverflowRails/config/initializers/assets.rb": [
         null,
         null,
         null,
@@ -186,7 +186,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/stack_overflow/config/initializers/backtrace_silencers.rb": [
+      "/Users/Guest/Desktop/StackOverflowRails/config/initializers/backtrace_silencers.rb": [
         null,
         null,
         null,
@@ -195,18 +195,18 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/stack_overflow/config/initializers/cookies_serializer.rb": [
+      "/Users/Guest/Desktop/StackOverflowRails/config/initializers/cookies_serializer.rb": [
         null,
         null,
         1
       ],
-      "/Users/Guest/Desktop/stack_overflow/config/initializers/filter_parameter_logging.rb": [
+      "/Users/Guest/Desktop/StackOverflowRails/config/initializers/filter_parameter_logging.rb": [
         null,
         null,
         null,
         1
       ],
-      "/Users/Guest/Desktop/stack_overflow/config/initializers/inflections.rb": [
+      "/Users/Guest/Desktop/StackOverflowRails/config/initializers/inflections.rb": [
         null,
         null,
         null,
@@ -224,18 +224,18 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/stack_overflow/config/initializers/mime_types.rb": [
+      "/Users/Guest/Desktop/StackOverflowRails/config/initializers/mime_types.rb": [
         null,
         null,
         null,
         null
       ],
-      "/Users/Guest/Desktop/stack_overflow/config/initializers/session_store.rb": [
+      "/Users/Guest/Desktop/StackOverflowRails/config/initializers/session_store.rb": [
         null,
         null,
         1
       ],
-      "/Users/Guest/Desktop/stack_overflow/config/initializers/wrap_parameters.rb": [
+      "/Users/Guest/Desktop/StackOverflowRails/config/initializers/wrap_parameters.rb": [
         null,
         null,
         null,
@@ -251,46 +251,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/stack_overflow/spec/factories.rb": [
-        1,
-        1,
-        1,
-        1,
-        null,
-        null
-      ],
-      "/Users/Guest/Desktop/stack_overflow/config/routes.rb": [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null
-      ],
-      "/Users/Guest/Desktop/stack_overflow/app/helpers/application_helper.rb": [
-        1,
-        null
-      ],
-      "/Users/Guest/Desktop/stack_overflow/spec/features/sign_up_pages_spec.rb": [
-        1,
-        1,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
+      "/Users/Guest/Desktop/StackOverflowRails/spec/factories.rb": [
         1,
         1,
         1,
@@ -299,7 +260,88 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/stack_overflow/spec/models/user_spec.rb": [
+      "/Users/Guest/Desktop/StackOverflowRails/config/routes.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "/Users/Guest/Desktop/StackOverflowRails/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/Guest/Desktop/StackOverflowRails/spec/features/sign_up_pages_spec.rb": [
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/Guest/Desktop/StackOverflowRails/spec/mailers/user_mailer_spec.rb": [
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/Guest/Desktop/StackOverflowRails/app/mailers/user_mailer.rb": [
+        1,
+        1,
+        null,
+        1,
+        1,
+        null,
+        1,
+        null,
+        null
+      ],
+      "/Users/Guest/Desktop/StackOverflowRails/app/mailers/application_mailer.rb": [
+        1,
+        1,
+        1,
+        null
+      ],
+      "/Users/Guest/Desktop/StackOverflowRails/spec/models/user_spec.rb": [
         1,
         1,
         null,
@@ -329,9 +371,12 @@
         1,
         null,
         null,
+        null,
         null
       ],
-      "/Users/Guest/Desktop/stack_overflow/app/models/user.rb": [
+      "/Users/Guest/Desktop/StackOverflowRails/app/models/user.rb": [
+        1,
+        1,
         1,
         1,
         1,
@@ -354,34 +399,75 @@
         7,
         null,
         null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
         null
       ],
-      "/Users/Guest/Desktop/stack_overflow/app/controllers/home_controller.rb": [
+      "/Users/Guest/Desktop/StackOverflowRails/app/controllers/home_controller.rb": [
         1,
         1,
+        6,
         null,
         null,
         null
       ],
-      "/Users/Guest/Desktop/stack_overflow/app/controllers/application_controller.rb": [
+      "/Users/Guest/Desktop/StackOverflowRails/app/controllers/application_controller.rb": [
         1,
         null,
         null,
         1,
         null,
         1,
-        7,
+        8,
         null,
         null,
         1,
-        12,
+        24,
         null,
         null,
         1,
         1,
         null
       ],
-      "/Users/Guest/Desktop/stack_overflow/app/controllers/sessions_controller.rb": [
+      "/Users/Guest/Desktop/StackOverflowRails/app/models/question.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        null,
+        0,
+        0,
+        null,
+        null,
+        0,
+        null,
+        null,
+        1,
+        6,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        null
+      ],
+      "/Users/Guest/Desktop/StackOverflowRails/app/controllers/sessions_controller.rb": [
         1,
         1,
         2,
@@ -402,7 +488,7 @@
         null,
         null
       ],
-      "/Users/Guest/Desktop/stack_overflow/app/controllers/users_controller.rb": [
+      "/Users/Guest/Desktop/StackOverflowRails/app/controllers/users_controller.rb": [
         1,
         1,
         null,
@@ -412,6 +498,7 @@
         2,
         1,
         1,
+        1,
         null,
         1,
         1,
@@ -424,14 +511,9 @@
         2,
         null,
         null,
-        null
-      ],
-      "/Users/Guest/Desktop/stack_overflow/app/models/question.rb": [
-        1,
-        1,
         null
       ]
     },
-    "timestamp": 1436208476
+    "timestamp": 1436309292
   }
 }

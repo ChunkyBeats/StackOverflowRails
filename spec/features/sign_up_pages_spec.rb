@@ -6,6 +6,7 @@ describe "signing up" do
     visit root_path
     click_on "Sign up"
     fill_in "Username", with: "bencorn"
+    fill_in "Email", with: "test@test.com"
     fill_in "Password", with: 1234
     fill_in "Password confirmation", with: 1234
     click_on "Sign Up"

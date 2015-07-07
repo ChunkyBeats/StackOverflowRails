@@ -27,4 +27,5 @@ describe User do
       expect(User.authenticate('bencorn', 'somechar')).to eq(nil)
     end
   end
+
 end
